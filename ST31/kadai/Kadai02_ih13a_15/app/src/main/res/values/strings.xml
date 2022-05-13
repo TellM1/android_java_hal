@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Kadai02_ih13a_15</string>
+    <string name="title">課題02 BMI計算アプリ</string>
+    <string name="name">IH13A 15 河野 光臣</string>
+    <string name="input1">身長</string>
+    <string name="input2">体重</string>
+    <string name="input3">年齢</string>
+    <string name="textcmm">cm</string>
+    <string name="textkgg">kg</string>
 </resources>
