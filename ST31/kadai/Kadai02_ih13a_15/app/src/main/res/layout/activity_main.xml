@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:text=""
+            android:hint="0~200"
             android:textSize="18sp" />
 
         <TextView
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:text=""
+            android:hint="0~300"
             android:textSize="18sp" />
 
         <TextView
@@ -79,7 +81,7 @@
 
     <Button
         android:id="@+id/calc"
-        android:layout_width="204dp"
+        android:layout_width="184dp"
         android:layout_height="wrap_content"
         android:text="計算" />
 
@@ -119,6 +121,33 @@
             android:layout_height="wrap_content"
             android:text="未入力"
             android:textSize="14sp" />
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/output_mes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="肥満度:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/outputs_mes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未測定"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="800px" />
 
 </LinearLayout>
