@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         calcBtn = findViewById(R.id.calc); //ボタンのオブジェクトを取得
         calcBtn.setOnClickListener( v -> {//ラムダ形式
             Log.d("debug","click calc btn");//動作チェック用
-
             getDates();
         });
     }
@@ -79,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView_bmi = findViewById(R.id.outputs_bmi);//BMI
         TextView textView_aw = findViewById(R.id.outputs_weight);//Average weight
         TextView textView_mes = findViewById(R.id.outputs_mes);//肥満度mes
+
         //edit textの中身を習得して計算をする
         EditText edit1 = findViewById(R.id.editTextTextPersonName1);//身長
         EditText edit2 = findViewById(R.id.editTextTextPersonName2);//体重

@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:text=""
-            android:hint="0~200"
+            android:hint="50~200"
             android:textSize="18sp" />
 
         <TextView
